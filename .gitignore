@@ -1,0 +1,25 @@
+# Environment — never commit secrets
+.env
+.env.local
+.env.production
+
+# Local Deno KV database
+*.db
+local_stos.db
+
+# Deno cache
+.deno/
+
+# Coverage output
+coverage/
+lcov.info
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
